@@ -2,7 +2,7 @@ package com.camilo.calcu.data.repository
 
 import com.camilo.calcu.data.model.QuoteModel
 import com.camilo.calcu.data.model.QuoteProvider
-import com.camilo.calcu.data.network.QuoteService
+import com.camilo.calcu.data.network.services.QuoteService
 
 class QuoteRepository {
 

@@ -1,11 +1,11 @@
-package com.camilo.calcu.data.network
+package com.camilo.calcu.data.network.services
 
 import com.camilo.calcu.core.RetrofitHelper
 import com.camilo.calcu.data.model.QuoteModel
+import com.camilo.calcu.data.network.client.QuoteApiClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.Response
-import retrofit2.create
 
 class QuoteService {
 

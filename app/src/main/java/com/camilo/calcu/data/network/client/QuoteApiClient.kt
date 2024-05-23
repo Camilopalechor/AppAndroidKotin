@@ -1,4 +1,4 @@
-package com.camilo.calcu.data.network
+package com.camilo.calcu.data.network.client
 
 import com.camilo.calcu.data.model.QuoteModel
 import retrofit2.Response

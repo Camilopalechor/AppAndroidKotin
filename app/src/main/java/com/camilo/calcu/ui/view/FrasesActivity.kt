@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
+import com.camilo.calcu.data.utils.SharedApp
 import com.camilo.calcu.databinding.ActivityFrasesBinding
 import com.camilo.calcu.ui.viewmodel.QuoteViewModel
 
@@ -35,5 +36,9 @@ class FrasesActivity : AppCompatActivity() {
         })
 
         binding.viewContainer.setOnClickListener{quoteViewModel.randomQuote()}
+
+        val nombre= SharedApp.prefs.name
+
+        binding.tvNameAuth.text=nombre
     }
 }
